@@ -21,11 +21,4 @@ class Patient
     Appointment.all.select do |appointment|
       appointment.patient == self
     end
-    
-    def doctors
-      Appointment.each do |appointment|
-        appointment.patient == self
-      end
-    end
   end
-end
