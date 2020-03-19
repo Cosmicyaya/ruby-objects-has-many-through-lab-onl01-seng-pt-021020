@@ -2,7 +2,7 @@ require 'pry'
 class Patient
   @@all = []
   
-  attr_reader :name, :appointment, :doctor
+  attr_reader :name
   
   def initialize(name)
     @name = name
