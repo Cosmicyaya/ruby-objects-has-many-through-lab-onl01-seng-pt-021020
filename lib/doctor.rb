@@ -28,4 +28,5 @@ end
       appointment.patients
     end
   end
+  
 end
