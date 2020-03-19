@@ -24,3 +24,7 @@ class Patient
     
     def doctors
       Appointment.each do |appointment|
+        appointment.patient == self
+      end
+    end
+  end
