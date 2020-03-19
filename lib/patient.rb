@@ -24,7 +24,8 @@ class Patient
   end
     
     def doctors
-    Appointment.all.each do |appointment| appointment.patient
+    Appointment.all.map do |appointment|
+      appointment.patient == self
     binding.pry
   end
 end
