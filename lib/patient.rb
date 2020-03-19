@@ -28,3 +28,4 @@ class Patient
       end
     end
   end
+end
