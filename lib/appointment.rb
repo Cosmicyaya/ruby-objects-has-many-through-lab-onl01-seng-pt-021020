@@ -18,4 +18,6 @@ class Appointment
   def patients
     self.patient
   end
-end
+  
+  def doctors
+    
