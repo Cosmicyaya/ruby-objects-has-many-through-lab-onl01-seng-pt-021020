@@ -1,3 +1,4 @@
+require 'pry'
 class Patient
   @@all = []
   
@@ -24,6 +25,7 @@ class Patient
     
     def doctors
     Appointment.all.each do |appointment| appointment.patient
+    binding.pry
   end
 end
 
