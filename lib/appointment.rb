@@ -20,7 +20,7 @@ class Appointment
   end
   
   def doctors
-  Meal.all.select do |meal|
-    meal.customer == self
+  doctor.all.select do |doctor|
+    doctor.patient == self
   end
 end
