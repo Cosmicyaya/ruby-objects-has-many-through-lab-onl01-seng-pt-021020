@@ -23,3 +23,4 @@ class Patient
     end
     
     def doctors
+      appointment
